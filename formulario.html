@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tienda de Bicis - Formulario</title>
+</head>
+<body>
+
+    <div class="contenedor">
+        <p>Indica qué tipo de bicicleta buscas en el siguiente formulario y te responderemos a la mayor brevedad posible.</p>
+
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" required>
+
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion">
+
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono">
+
+            <label for="fecha">Fecha de nacimiento:</label>
+            <input type="date" id="fecha" name="fecha">
+
+            <label for="sexo">Sexo:</label>
+            <select id="sexo" name="sexo">
+                <option value="hombre">Hombre</option>
+                <option value="mujer">Mujer</option>
+                <option value="otro">Otro</option>
+            </select>
+
+            <label>Estado de la bicicleta:</label>
+            <label class="opcion-radio"><input type="radio" name="estado" value="nueva" checked> Nueva</label>
+            <label class="opcion-radio"><input type="radio" name="estado" value="usada"> Usada</label>
+
+            <label for="observaciones">Observaciones:</label>
+            <textarea id="observaciones" name="observaciones" rows="4"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <footer>
+        <p><a href="index.html">Volver al inicio</a></p>
+    </footer>
+
+</body>
+</html>
